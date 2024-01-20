@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.protobuf.InvalidProtocolBufferException;
 import com.vinsguru.json.JPerson;
+import com.vinsguru.models.Person;
 //import com.vinsguru.models.Person;
 
 public class L2PerformanceTest {
@@ -16,6 +17,7 @@ public class L2PerformanceTest {
         Runnable json = () -> {
             try {
                 byte[] bytes = mapper.writeValueAsBytes(jPerson);
+                System.out.println("length of bytes in json "+bytes.length);
                 JPerson jPerson1 = mapper.readValue(bytes, JPerson.class);
             } catch (Exception e) {
                 e.printStackTrace();
@@ -25,22 +27,23 @@ public class L2PerformanceTest {
 
 
         // protobuf serialization-deserialization
-//                Person sam = Person.newBuilder()
-//                .setName("sam")
-//                .setAge(10)
-//                .build();
-//
-//        Runnable proto = () -> {
-//            try {
-//                byte[] bytes = sam.toByteArray();
-//                Person sam1 = Person.parseFrom(bytes);
-//            } catch (InvalidProtocolBufferException e) {
-//                e.printStackTrace();
-//            }
-//        };
-//
-//        runPerformanceTest(json, "JSON");
-//        runPerformanceTest(proto, "proto");
+                Person sam = Person.newBuilder()
+                .setName("sam")
+                .setAge(10)
+                .build();
+
+        Runnable proto = () -> {
+            try {
+                byte[] bytes = sam.toByteArray();
+                System.out.println("length of bytes in protobuf "+bytes.length);
+                Person sam1 = Person.parseFrom(bytes);
+            } catch (InvalidProtocolBufferException e) {
+                e.printStackTrace();
+            }
+        };
+
+        runPerformanceTest(json, "JSON");
+        runPerformanceTest(proto, "proto");
     }
 
     public static void runPerformanceTest(Runnable runnable, String method) {

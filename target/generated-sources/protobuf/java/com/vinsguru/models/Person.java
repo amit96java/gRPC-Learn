@@ -94,7 +94,7 @@ private static final long serialVersionUID = 0L;
   public static final int ADDRESS_FIELD_NUMBER = 3;
   private com.vinsguru.models.Address address_;
   /**
-   * <code>.Address address = 3;</code>
+   * <code>.common.Address address = 3;</code>
    * @return Whether the address field is set.
    */
   @java.lang.Override
@@ -102,7 +102,7 @@ private static final long serialVersionUID = 0L;
     return ((bitField0_ & 0x00000001) != 0);
   }
   /**
-   * <code>.Address address = 3;</code>
+   * <code>.common.Address address = 3;</code>
    * @return The address.
    */
   @java.lang.Override
@@ -110,7 +110,7 @@ private static final long serialVersionUID = 0L;
     return address_ == null ? com.vinsguru.models.Address.getDefaultInstance() : address_;
   }
   /**
-   * <code>.Address address = 3;</code>
+   * <code>.common.Address address = 3;</code>
    */
   @java.lang.Override
   public com.vinsguru.models.AddressOrBuilder getAddressOrBuilder() {
@@ -121,14 +121,14 @@ private static final long serialVersionUID = 0L;
   @SuppressWarnings("serial")
   private java.util.List<com.vinsguru.models.Car> car_;
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   @java.lang.Override
   public java.util.List<com.vinsguru.models.Car> getCarList() {
     return car_;
   }
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   @java.lang.Override
   public java.util.List<? extends com.vinsguru.models.CarOrBuilder> 
@@ -136,21 +136,21 @@ private static final long serialVersionUID = 0L;
     return car_;
   }
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   @java.lang.Override
   public int getCarCount() {
     return car_.size();
   }
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   @java.lang.Override
   public com.vinsguru.models.Car getCar(int index) {
     return car_.get(index);
   }
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   @java.lang.Override
   public com.vinsguru.models.CarOrBuilder getCarOrBuilder(
@@ -733,14 +733,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         com.vinsguru.models.Address, com.vinsguru.models.Address.Builder, com.vinsguru.models.AddressOrBuilder> addressBuilder_;
     /**
-     * <code>.Address address = 3;</code>
+     * <code>.common.Address address = 3;</code>
      * @return Whether the address field is set.
      */
     public boolean hasAddress() {
       return ((bitField0_ & 0x00000004) != 0);
     }
     /**
-     * <code>.Address address = 3;</code>
+     * <code>.common.Address address = 3;</code>
      * @return The address.
      */
     public com.vinsguru.models.Address getAddress() {
@@ -751,7 +751,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.Address address = 3;</code>
+     * <code>.common.Address address = 3;</code>
      */
     public Builder setAddress(com.vinsguru.models.Address value) {
       if (addressBuilder_ == null) {
@@ -767,7 +767,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.Address address = 3;</code>
+     * <code>.common.Address address = 3;</code>
      */
     public Builder setAddress(
         com.vinsguru.models.Address.Builder builderForValue) {
@@ -781,7 +781,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.Address address = 3;</code>
+     * <code>.common.Address address = 3;</code>
      */
     public Builder mergeAddress(com.vinsguru.models.Address value) {
       if (addressBuilder_ == null) {
@@ -802,7 +802,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.Address address = 3;</code>
+     * <code>.common.Address address = 3;</code>
      */
     public Builder clearAddress() {
       bitField0_ = (bitField0_ & ~0x00000004);
@@ -815,7 +815,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.Address address = 3;</code>
+     * <code>.common.Address address = 3;</code>
      */
     public com.vinsguru.models.Address.Builder getAddressBuilder() {
       bitField0_ |= 0x00000004;
@@ -823,7 +823,7 @@ private static final long serialVersionUID = 0L;
       return getAddressFieldBuilder().getBuilder();
     }
     /**
-     * <code>.Address address = 3;</code>
+     * <code>.common.Address address = 3;</code>
      */
     public com.vinsguru.models.AddressOrBuilder getAddressOrBuilder() {
       if (addressBuilder_ != null) {
@@ -834,7 +834,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.Address address = 3;</code>
+     * <code>.common.Address address = 3;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         com.vinsguru.models.Address, com.vinsguru.models.Address.Builder, com.vinsguru.models.AddressOrBuilder> 
@@ -863,7 +863,7 @@ private static final long serialVersionUID = 0L;
         com.vinsguru.models.Car, com.vinsguru.models.Car.Builder, com.vinsguru.models.CarOrBuilder> carBuilder_;
 
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public java.util.List<com.vinsguru.models.Car> getCarList() {
       if (carBuilder_ == null) {
@@ -873,7 +873,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public int getCarCount() {
       if (carBuilder_ == null) {
@@ -883,7 +883,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public com.vinsguru.models.Car getCar(int index) {
       if (carBuilder_ == null) {
@@ -893,7 +893,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public Builder setCar(
         int index, com.vinsguru.models.Car value) {
@@ -910,7 +910,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public Builder setCar(
         int index, com.vinsguru.models.Car.Builder builderForValue) {
@@ -924,7 +924,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public Builder addCar(com.vinsguru.models.Car value) {
       if (carBuilder_ == null) {
@@ -940,7 +940,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public Builder addCar(
         int index, com.vinsguru.models.Car value) {
@@ -957,7 +957,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public Builder addCar(
         com.vinsguru.models.Car.Builder builderForValue) {
@@ -971,7 +971,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public Builder addCar(
         int index, com.vinsguru.models.Car.Builder builderForValue) {
@@ -985,7 +985,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public Builder addAllCar(
         java.lang.Iterable<? extends com.vinsguru.models.Car> values) {
@@ -1000,7 +1000,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public Builder clearCar() {
       if (carBuilder_ == null) {
@@ -1013,7 +1013,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public Builder removeCar(int index) {
       if (carBuilder_ == null) {
@@ -1026,14 +1026,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public com.vinsguru.models.Car.Builder getCarBuilder(
         int index) {
       return getCarFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public com.vinsguru.models.CarOrBuilder getCarOrBuilder(
         int index) {
@@ -1043,7 +1043,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public java.util.List<? extends com.vinsguru.models.CarOrBuilder> 
          getCarOrBuilderList() {
@@ -1054,14 +1054,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public com.vinsguru.models.Car.Builder addCarBuilder() {
       return getCarFieldBuilder().addBuilder(
           com.vinsguru.models.Car.getDefaultInstance());
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public com.vinsguru.models.Car.Builder addCarBuilder(
         int index) {
@@ -1069,7 +1069,7 @@ private static final long serialVersionUID = 0L;
           index, com.vinsguru.models.Car.getDefaultInstance());
     }
     /**
-     * <code>repeated .Car car = 4;</code>
+     * <code>repeated .common.Car car = 4;</code>
      */
     public java.util.List<com.vinsguru.models.Car.Builder> 
          getCarBuilderList() {

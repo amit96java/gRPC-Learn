@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package common;//this is the package name for proto files.
+
+option java_multiple_files = true; // to create multiple java files instead one.
+option java_package = "com.vinsguru.models" ;
+
+message Car {
+  string make = 1;
+  string model = 2;
+  string year = 3;
+  BodyStyle body_style = 4;
+}
+
+enum BodyStyle {
+  UNKNOWN = 0; // O ONE IS DAFAULT ONE
+  COUPE = 1;
+  SUV = 2;
+  SEDAN = 4;
+}
+
+
+

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package common;//this is the package name for proto files.
+
+option java_multiple_files = true; // to create multiple java files instead one.
+option java_package = "com.vinsguru.models" ;
+
+message Address {
+  int32 postbox = 1;
+  string city = 2;
+  string street = 3;
+}

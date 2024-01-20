@@ -26,40 +26,40 @@ public interface PersonOrBuilder extends
   int getAge();
 
   /**
-   * <code>.Address address = 3;</code>
+   * <code>.common.Address address = 3;</code>
    * @return Whether the address field is set.
    */
   boolean hasAddress();
   /**
-   * <code>.Address address = 3;</code>
+   * <code>.common.Address address = 3;</code>
    * @return The address.
    */
   com.vinsguru.models.Address getAddress();
   /**
-   * <code>.Address address = 3;</code>
+   * <code>.common.Address address = 3;</code>
    */
   com.vinsguru.models.AddressOrBuilder getAddressOrBuilder();
 
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   java.util.List<com.vinsguru.models.Car> 
       getCarList();
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   com.vinsguru.models.Car getCar(int index);
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   int getCarCount();
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   java.util.List<? extends com.vinsguru.models.CarOrBuilder> 
       getCarOrBuilderList();
   /**
-   * <code>repeated .Car car = 4;</code>
+   * <code>repeated .common.Car car = 4;</code>
    */
   com.vinsguru.models.CarOrBuilder getCarOrBuilder(
       int index);

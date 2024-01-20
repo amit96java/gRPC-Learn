@@ -36,6 +36,7 @@ public class L4MapDemo {
                 .addAllCar(List.of(car1, car2))
                 .build();
 
-        System.out.println(dealer.getModelMap());
+//        System.out.println(dealer.getModelMap());
+        System.out.println(dealer.getModelOrThrow(2024).getBodyStyle());
     }
 }
