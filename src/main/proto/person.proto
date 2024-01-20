@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_multiple_files = true; // to create multiple java files instead one.
+option java_package = "com.vinsguru.models" ;
+
+message Address {
+  int32 postbox = 1;
+  string city = 2;
+  string street = 3;
+}
+
+message Car {
+  string make = 1;
+  string model = 2;
+  string year = 3;
+}
+
+message Person {
+  string name = 1;
+  int32 age = 2;
+  Address address = 3;
+  repeated Car car = 4;
+}
+
+message Dealer {
+  map<int32, Car> model = 1;
+}
