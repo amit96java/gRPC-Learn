@@ -1,4 +1,4 @@
-package com.vinsguru.protobuf;
+package com.vinsguru.Sec02protobuf;
 
 import com.vinsguru.models.Address;
 import com.vinsguru.models.Car;

@@ -9,8 +9,18 @@ option java_package = "com.vinsguru.models" ;
 
 
 message Person {
+  // 1-15 - 1byte
+  // 16-2047 - 2 bytes
   string name = 1;
   int32 age = 2;
   common.Address address = 3;
   repeated common.Car car = 4;
 }
+
+//json mapping
+//"name": "sam",
+//"age": 10
+//
+//protobuf mapping
+//1="sam"
+//2=10

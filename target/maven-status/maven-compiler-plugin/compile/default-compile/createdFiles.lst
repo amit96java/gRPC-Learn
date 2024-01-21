@@ -1,11 +1,13 @@
 com\vinsguru\models\AddressOrBuilder.class
 com\vinsguru\models\AddressOuterClass.class
 com\vinsguru\models\EmailCredentials$Builder.class
+com\vinsguru\models\Type.class
 com\vinsguru\models\EmailCredentials.class
 com\vinsguru\json\JPerson.class
 com\vinsguru\models\CredentialsOuterClass.class
 com\vinsguru\models\BodyStyle$1.class
 com\vinsguru\models\PersonOuterClass.class
+com\vinsguru\models\Type$1.class
 com\vinsguru\models\Address$1.class
 com\vinsguru\models\DealerOuterClass.class
 com\vinsguru\models\Address$Builder.class
@@ -15,12 +17,16 @@ com\vinsguru\models\DealerOrBuilder.class
 com\vinsguru\models\Dealer.class
 com\vinsguru\models\PhoneOTP$1.class
 com\vinsguru\models\Address.class
+com\vinsguru\models\Television$Builder.class
 com\vinsguru\models\Credentials.class
 com\vinsguru\models\Credentials$2.class
 com\vinsguru\models\Car.class
+com\vinsguru\models\Television.class
 com\vinsguru\models\EmailCredentialsOrBuilder.class
 com\vinsguru\models\CarOrBuilder.class
 com\vinsguru\models\PhoneOTP$Builder.class
+com\vinsguru\models\TelevisionOrBuilder.class
+com\vinsguru\models\TelevisionOuterClass.class
 com\vinsguru\models\PersonOrBuilder.class
 com\vinsguru\models\Credentials$Builder.class
 com\vinsguru\models\Credentials$1.class
@@ -35,5 +41,6 @@ com\vinsguru\models\Dealer$ModelDefaultEntryHolder.class
 com\vinsguru\models\Car$1.class
 com\vinsguru\models\Dealer$1.class
 com\vinsguru\models\Person$Builder.class
+com\vinsguru\models\Television$1.class
 com\vinsguru\models\PhoneOTPOrBuilder.class
 com\vinsguru\models\Person$1.class

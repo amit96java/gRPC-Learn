@@ -8,11 +8,21 @@ public interface PersonOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
+   * <pre>
+   * 1-15 - 1byte
+   * 16-2047 - 2 bytes
+   * </pre>
+   *
    * <code>string name = 1;</code>
    * @return The name.
    */
   java.lang.String getName();
   /**
+   * <pre>
+   * 1-15 - 1byte
+   * 16-2047 - 2 bytes
+   * </pre>
+   *
    * <code>string name = 1;</code>
    * @return The bytes for name.
    */

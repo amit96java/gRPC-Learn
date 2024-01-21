@@ -1,6 +1,5 @@
-package com.vinsguru.protobuf;
+package com.vinsguru.Sec02protobuf;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.protobuf.InvalidProtocolBufferException;
 import com.vinsguru.json.JPerson;

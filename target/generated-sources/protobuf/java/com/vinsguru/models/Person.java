@@ -45,6 +45,11 @@ private static final long serialVersionUID = 0L;
   @SuppressWarnings("serial")
   private volatile java.lang.Object name_ = "";
   /**
+   * <pre>
+   * 1-15 - 1byte
+   * 16-2047 - 2 bytes
+   * </pre>
+   *
    * <code>string name = 1;</code>
    * @return The name.
    */
@@ -62,6 +67,11 @@ private static final long serialVersionUID = 0L;
     }
   }
   /**
+   * <pre>
+   * 1-15 - 1byte
+   * 16-2047 - 2 bytes
+   * </pre>
+   *
    * <code>string name = 1;</code>
    * @return The bytes for name.
    */
@@ -627,6 +637,11 @@ private static final long serialVersionUID = 0L;
 
     private java.lang.Object name_ = "";
     /**
+     * <pre>
+     * 1-15 - 1byte
+     * 16-2047 - 2 bytes
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @return The name.
      */
@@ -643,6 +658,11 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
+     * <pre>
+     * 1-15 - 1byte
+     * 16-2047 - 2 bytes
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @return The bytes for name.
      */
@@ -660,6 +680,11 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
+     * <pre>
+     * 1-15 - 1byte
+     * 16-2047 - 2 bytes
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @param value The name to set.
      * @return This builder for chaining.
@@ -673,6 +698,11 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     * 1-15 - 1byte
+     * 16-2047 - 2 bytes
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @return This builder for chaining.
      */
@@ -683,6 +713,11 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
+     * <pre>
+     * 1-15 - 1byte
+     * 16-2047 - 2 bytes
+     * </pre>
+     *
      * <code>string name = 1;</code>
      * @param value The bytes for name to set.
      * @return This builder for chaining.
